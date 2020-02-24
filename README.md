@@ -1,0 +1,1 @@
+Console framework for training project.
