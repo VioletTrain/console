@@ -23,7 +23,7 @@ that are used to register DI container's bindings.
 It contains array of commands defined by key as name and string value as 
 [Handler](https://github.com/VioletTrain/console/blob/master/src/Contract/CommandHandler.php)
 
-Afterwards application can be started like this (/public/index.php):
+Afterwards application can be started like this (/console.php):
 
 ```php
 <?php
