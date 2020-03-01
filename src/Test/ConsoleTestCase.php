@@ -18,7 +18,7 @@ abstract class ConsoleTestCase extends TestCase
         parent::__construct($name, $data, $dataName);
 
         if (!defined('BASE_PATH')) {
-            define('BASE_PATH', __DIR__ . "/../../../");
+            define('BASE_PATH', __DIR__ . "/../../../../../");
         }
 
         $configuration = new Configuration('/config/console');
