@@ -5,7 +5,7 @@ namespace Anso\Framework\Console\Test;
 use Anso\Framework\Base\Container;
 use Anso\Framework\Base\Configuration;
 use Anso\Framework\Console\Contract\IOManager;
-use Anso\Framework\Contract\Application;
+use Anso\Framework\Base\Contract\Application;
 use PHPUnit\Framework\TestCase;
 
 abstract class ConsoleTestCase extends TestCase

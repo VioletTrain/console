@@ -4,7 +4,7 @@ namespace Anso\Framework\Console;
 
 use Anso\Framework\Console\Exception\CommandNotFoundException;
 use Anso\Framework\Base\Configuration;
-use Anso\Framework\Contract\Container;
+use Anso\Framework\Base\Contract\Container;
 use Anso\Framework\Console\Contract\Command;
 use Throwable;
 

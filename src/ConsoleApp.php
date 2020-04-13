@@ -4,7 +4,7 @@ namespace Anso\Framework\Console;
 
 use Anso\Framework\Base\BaseApp;
 use Anso\Framework\Console\Contract\IOManager;
-use Anso\Framework\Contract\ExceptionHandler;
+use Anso\Framework\Base\Contract\ExceptionHandler;
 use Throwable;
 
 class ConsoleApp extends BaseApp

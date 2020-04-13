@@ -39,7 +39,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Anso\Framework\Base\Container;
 use Anso\Framework\Base\Configuration;
 use Anso\Framework\Console\ConsoleApp;
-use Anso\Framework\Contract\Application;
+use Anso\Framework\Base\Contract\Application;
 
 $configuration = new Configuration('/config/console');
 $container = new Container($configuration);

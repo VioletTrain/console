@@ -2,7 +2,7 @@
 
 namespace Anso\Framework\Console\Exception;
 
-use Anso\Framework\Contract\ApplicationException;
+use Anso\Framework\Base\Contract\ApplicationException;
 use Exception;
 use Throwable;
 
